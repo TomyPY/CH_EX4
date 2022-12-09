@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(37, 0, 48);
+}
+
+input ::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: grid;
+    grid-auto-columns: auto;
+}
+
+input{
+    height: 60px;
+    margin: 30px 0px;
+    width: 1000px;
+    background-color: rgba(0, 0, 255, 0.185);
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+
+.title-container{
+    display: inline-block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: rgba(0, 0, 255, 0.404);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height: 100px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
